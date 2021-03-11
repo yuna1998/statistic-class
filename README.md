@@ -1,9 +1,8 @@
 # statistic-class
 
-## firt class
+I can learn
+  - markdown
+  - etc...
 
-## second class
-I cna learn
-  -# markdown #
-  -etc...
+I am **Yoona Lee**.
 
