@@ -1,0 +1,30 @@
+---
+title: "markdown"
+author : YooNa Lee
+date : "Mar 11, 2011"
+output: html_document
+---
+
+## Markdown Test
+This is a test script for markdown
+
+```{r global_option, include=FALSE}
+knitr::opts_chunk$set(fig.width = 8, fig.height = 8, fig.path = 'Figs/', fig.keep = 'high',
+                      warning = FALSE, missing = FALSE)
+set.seed(123123)
+```
+
+
+```{r}
+data(iris)
+library(knitr)
+kable(iris[1:10,])
+```
+iris data have 'r nrow(iris)' obersvations with 'r ncol(iris)' columns.
+
+option include=FALSE will not show results
+
+```{r, inclued=FALSE}
+1+1
+```
+
